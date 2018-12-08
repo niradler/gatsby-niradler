@@ -33,3 +33,4 @@ collections:
             - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
             - {label: "Title", name: "title", widget: "title" }
             - {path: "Path", name: "path", widget: "string"}
+            - {label: "Body", name: "body", widget: "markdown"}
