@@ -11,9 +11,9 @@ public_folder: images
 collections:
   - name: "articles"
     label: "Articles"
-    folder: "src/pages/articles/{{year}}-{{month}}-{{day}}---{{slug}}"
+    folder: "src/pages/articles/"
     create: true
-    slug: "index.md"
+    slug: "{{year}}-{{month}}-{{day}}---{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
