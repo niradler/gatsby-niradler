@@ -6,18 +6,30 @@ backend:
    - editor
 
 media_folder: static/images
+public_folder: images
 
 collections:
   - name: "articles"
     label: "Articles"
-    folder: "src/pages/articles"
+    folder: "src/pages/articles/{{year}}-{{month}}-{{day}}---{{slug}}"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "index.md"
     fields:
-      - {label: "Layout", name: "layout", widget: "string", default: "post"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Categories", name: "category", widget: "string"}
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/pages/about/index.md"
+        label: "About"
+        name: "about"
+        fields:
+            - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+            - {label: "Title", name: "title", widget: "title" }
+            - {path: "Path", name: "path", widget: "string"}
