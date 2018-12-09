@@ -2,7 +2,6 @@
 layout: post
 draft: false
 path: "/posts/getting-started-with-elk-stack/"
-tags: "undefined"
 description: "undefined"
 title: "Getting Started With ELK Stack By Building Uptime Monitor."
 date: "2018-12-05T23:20:39.000Z"
