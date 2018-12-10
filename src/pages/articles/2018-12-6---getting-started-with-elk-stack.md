@@ -11,7 +11,7 @@ tags:
   - ELK
   - Kibana
   - Elasticsearch
-category: devops
+category: Devops
 ---
 
 What is ELK? long story short,ELK stand for _**Elasticsearch**_, _**Logstash**_, _**Kibana**_.
