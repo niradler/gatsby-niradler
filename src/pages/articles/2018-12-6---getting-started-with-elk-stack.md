@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Getting Started With ELK Stack By Building Uptime Monitor.
+path: "/posts/getting-started-with-elk-stack/"
 draft: false
 date: '2018-12-05T23:20:39.000Z'
 description: |-
