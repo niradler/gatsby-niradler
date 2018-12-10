@@ -2,7 +2,16 @@
 layout: post
 draft: false
 path: "/posts/getting-started-with-elk-stack/"
-description: "undefined"
+tags: 
+  - ELK
+  - Kibana
+  - Elasticsearch
+description: "What is ELK? long story short,ELK stand for Elasticsearch, Logstash, Kibana.
+
+Elasticsearch [https://www.elastic.co/products/elasticsearch]  is a full-text,
+distributed NoSQL database.
+
+Logstash [https://www.elastic.co/products/logstash]  is a tool f..."
 title: "Getting Started With ELK Stack By Building Uptime Monitor."
 date: "2018-12-05T23:20:39.000Z"
 slug: "/getting-started-with-elk-stack/"
